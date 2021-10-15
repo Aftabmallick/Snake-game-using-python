@@ -11,7 +11,7 @@ wn.title("sneck By @Aforaftab")
 wn.bgcolor("black")
 wn.setup(width=600, height=600)
 wn.tracer(0)
-#Sneck head
+#Snake head
 head= turtle.Turtle()
 head.speed(0)
 head.shape("square")
@@ -21,7 +21,7 @@ head.penup()
 head.goto(0,0)
 head.direction = "Stop"
 
-#Sneak food
+#Snake food
 food = turtle.Turtle()
 food.speed(0)
 food.shape("circle")
